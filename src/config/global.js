@@ -193,16 +193,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Andrés Felipe Valencia Pimienta',
-          cargo: 'Integrador FAVA.',
-          centro:
-            'Centro de diseño e innovación tecnológica industrial – Regional Risaralda',
-        },
-        {
-          nombre: 'Carlos Andrés Mesa Montoya',
-          cargo: 'Instructor',
-          centro:
-            'Centro agroempresarial Cundinamarca - Regional Cundinamarca.',
+          nombre: 'Ángela Viviana Páez Perilla',
+          cargo: 'Experta temática',
+          centro: 'Centro agroindustrial - Regional Quindío.',
         },
         {
           nombre: 'Luis Guillermo Álvarez García',
@@ -216,7 +209,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Hernando Junior Strusberg Perez',
+          nombre: 'Carmen Alicia Martinez Torres',
           cargo: 'Diseñador <em>web</em>',
           centro:
             'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
@@ -229,6 +222,12 @@ export default {
         },
         {
           nombre: 'Alexander Rafael Acosta Bedoya',
+          cargo: 'Animador y productor audiovisual',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
+        },
+        {
+          nombre: 'Nelson Ivan Vera Briceño',
           cargo: 'Animador y productor audiovisual',
           centro:
             'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
