@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Generalidades de la ganadería sustentable',
+    descripcionCurso:
+      'La ganadería sustentable es un enfoque de producción ganadera que busca equilibrar la producción de alimentos con la protección del medio ambiente, el bienestar animal y el desarrollo socioeconómico de las comunidades rurales. Este tipo de ganadería se enfoca en prácticas que reducen el impacto ambiental, promueven la salud del suelo y del agua, y mejoran la calidad de vida de las personas involucradas en el sector.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,27 +40,25 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Generalidades de la ganadería sustentable',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Manejo de información de la finca ganadera',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Alimentos en la nutrición de los bovinos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Pastos y técnicas para la conservación de forrajes',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +109,67 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Ganadería sustentable',
+      referencia: 'Ecosistema recursos SENA [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/embed/Rjnkr7UCs34?si=UDiLqQ33awXWhQnw',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Ganadería',
+      significado:
+        'la ganadería es la actividad económica y agrícola que se dedica a la cría y manejo de animales con fines productivos, como la obtención de carne, leche, cuero y otros productos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Sustentable',
+      significado:
+        'la sustentabilidad se refiere a la capacidad de satisfacer las necesidades del presente sin comprometer la capacidad de las futuras generaciones para satisfacer sus propias necesidades.',
+    },
+    {
+      termino: 'Bovinos',
+      significado:
+        'los bovinos son mamíferos rumiantes pertenecientes a la familia de los bóvidos, que incluye tanto a las vacas como a los toros.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Evangelista, J. (2011). Evaluación de forrajes. Bogotá, Colombia: Universidad Nacional de Colombia.',
       link: '',
+    },
+    {
+      referencia:
+        'FAO. (s.f.). Capítulo VI cultivos para heno - leguminosas forrajeras y legumbres. Consultado el 27 de marzo de 2015.',
+      link: 'http://www.fao.org/docrep/007/x7660s/x7660s0a.htm',
+    },
+    {
+      referencia:
+        'FEDEGAN y SENA. (2013). Manual de cómo elaborar un heno de buena calidad. Consultado el 27 de marzo de 2015',
+      link:
+        'http://www.fedegan.org.co/manual-de-como-elaborar-un-heno-de-buena-calidad',
+    },
+    {
+      referencia:
+        'Franco, L., Calero, D. y Ávila, P. (2007). Alternativas para la conservación de forrajes. Consultado el 27 de marzo de 2015.',
+      link: 'http://www.bdigital.unal.edu.co/5028/1/9789584411747.pdf',
+    },
+    {
+      referencia:
+        'Mora, J. (2005). Planificación de fincas ganaderas eco amigables. Ibagué, Colombia: Universidad del Tolima',
+      link: '',
+    },
+    {
+      referencia:
+        'Rúa, M. (2010). ¿Cómo aforar un potrero para pastorear correctamente? Consultado el 27 de marzo de 2015',
+      link:
+        'https://www.engormix.com/lecheria/pastoreo-racional/como-aforar-potrero-pastoreo_a28633/',
+    },
+    {
+      referencia:
+        'Villanueva, C., Ibrahim, M., Torres, K. y Torres, M. (2008). Planificación agroecológica de fincas ganaderas: La experiencia de la subcuenca Copán, Honduras.',
+      link:
+        'https://www.researchgate.net/publication/242366514_Planificacion_agroecologica_de_fincas_ganaderas_La_experiencia_de_la_subcuenca_Copan_Honduras',
     },
   ],
   creditos: [
@@ -136,13 +178,14 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Miguel de Jesús ParedesMaestre',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Centro para el desarrollo agroecológico Y agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -150,9 +193,22 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Andrés Felipe Valencia Pimienta',
+          cargo: 'Integrador FAVA.',
+          centro:
+            'Centro de diseño e innovación tecnológica industrial – Regional Risaralda',
+        },
+        {
+          nombre: 'Carlos Andrés Mesa Montoya',
+          cargo: 'Instructor',
+          centro:
+            'Centro agroempresarial Cundinamarca - Regional Cundinamarca.',
+        },
+        {
+          nombre: 'Luis Guillermo Álvarez García',
+          cargo: 'Evaluador instruccional',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -160,24 +216,22 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Hernando Junior Strusberg Perez',
+          cargo: 'Diseñador <em>web</em>',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Rafael Bladimir Pérez Meriño',
+          cargo: 'Desarrollador <em>fullstack</em>',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Alexander Rafael Acosta Bedoya',
+          cargo: 'Animador y productor audiovisual',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -185,24 +239,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Jairo Luis Valencia Ebratt',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Juan Carlos Cardona Acosta',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
+          nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },

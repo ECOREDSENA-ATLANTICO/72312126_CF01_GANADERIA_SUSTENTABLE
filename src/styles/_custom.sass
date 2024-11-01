@@ -2,18 +2,384 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 15%
+    right: 80%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 40%
+    right: 55%
+  &-3
+    animation: float3 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 20%
+  &-4
+    animation: float4 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 1%
+    right: 1%
 
+.banner-principal
+  &__img
+    padding-bottom: 0px!important
+    padding-top:1em!important
+    @media (min-width: 576px)
+      align-self: end
+  &__row &__img
+    @media (min-width: 576px)
+      padding-right: 0!important
 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translateY(120px)
 
   100%
-    transform: translateY(0px)
+    transform: translateY(80px)
+@keyframes float2
+  0%
+    transform: translateY(98px)
+
+  100%
+    transform: translateY(80px)
+@keyframes float3
+  0%
+    transform: translateY(100px)
+
+  100%
+    transform: translateY(80px)
+@keyframes float4
+  0%
+    transform: translateY(120px)
+
+  100%
+    transform: translateY(80px)
+
+.banner-principal .tarjeta 
+  background-color: #B5C430
+  background-size: cover
+  background-position: center
+
+.banner-interno__fondo
+  background-image: url(../assets/curso/portada/banner-interno.png) !important
+
+.fnd-4     
+  background-color: #EDFAFE
+  border-radius: 10px
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  align-content: center
+  align-items: center
+  p 
+    text-align: center
+  p::first-letter 
+    text-transform: uppercase
+  h1
+    color: #57D3FB
+    margin-bottom: 0   
+
+.fondo-imagen
+  background-image: url(../assets/curso/temas/tema1/img5.png) !important
+  background-repeat: no-repeat
+  background-size: cover !important
+.fondo-imagen3
+  background-image: url(../assets/curso/temas/tema1/img5.png) !important
+  background-repeat: no-repeat
+  background-size: cover !important
+  border-radius: 20px
+.fondo-imagen2
+  background-image: url(../assets/curso/temas/tema1/img15.png) !important
+  background-repeat: no-repeat
+  background-size: cover !important
+  border-radius: 20px
+.fondo-imagen4
+  background-image: url(../assets/curso/temas/tema4/img25.png) !important
+  background-repeat: no-repeat
+  background-size: cover !important
+  border-radius: 20px
+.fnd-img
+  background-image: url(../assets/curso/temas/tema4/img36.png) !important
+  background-repeat: no-repeat
+  background-size: cover !important
+  border-radius: 20px 0px 20px 0px
+  .col-lg-4.col-md-8.align-content-end img
+    justify-content: right
+    position: relative
+    left: 13px
+.fnd-img-3
+  background-image: url(../assets/curso/temas/tema4/img46.png) !important
+  background-repeat: no-repeat
+  background-size: cover !important
+  border-radius: 20px 0px 20px 0px
+  .col-lg-4.col-md-8 img
+    position: relative
+    right: 10px
+
+.tarjeta.color-white
+  background-color: #ffffff !important
+  width: 150px
+
+.crd--avatarHorizontal-left-bgr1,
+.crd--avatarHorizontal-left-bgr2,
+.crd--avatarHorizontal-left-bgr3,
+.crd--avatarHorizontal-left-bgr4,
+.crd--avatarHorizontal-left-bgr5,
+.crd--avatarHorizontal-left-bgr6, 
+.crd--avatarHorizontal-left-borde-tarjeta
+  position: relative
+  align-items: stretch
+
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc(100% - 60px)
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 10px
+
+.crd--avatarHorizontal-left-bgr1::before
+  background-color: #EFF2D5
+
+.crd--avatarHorizontal-left-bgr2::before
+  background-color: #CCE9E5
+
+.crd--avatarHorizontal-left-bgr3::before
+  background-color: #DCF6FE
+  border-radius: 25px
+  width: 160px
+  padding-left: 0
+  min-height: 174px
+
+.crd--avatarHorizontal-left-bgr4::before
+  background-color: #DCF6FE
+  border-radius: 25px
+  height: 60%
+
+.top 
+  align-items: center !important
+  position: relative
+  top: -20px
+  right: -20px
+.crd--avatarHorizontal-left-bgr5::before
+  background-color: #FFE9DB
+
+.crd--avatarHorizontal-left-bgr6::before
+  background-color: #99F2CE
+
+.crd--avatarHorizontal-left-borde-tarjeta::before
+  background-color: #EFF2D5
+  border-radius: 30px
+
+.tabla-b td, th 
+  border: 1.2px solid #000000
+  padding: 0.75em
+  background-color: white
+
+.tarjeta.acordeonA
+  background-color: #F6F8E9
+
+.acordion__accion__btn--a
+  background-color: #B1BF34 !important
+
+.acordion__activo
+  background-color: #EDFAFE !important
+
+.fa-minus:before
+  background-color: #57D3FB
+  padding: 0.6em
+  border-radius: 50px
+
+ul.mt-0 li 
+  position: relative
+  padding-left: 1.5em
+
+ul.mt-0 li::before 
+  content: url('../assets/curso/temas/tema1/img21.svg')
+  position: absolute
+  left: 0
+  top: 0em
+  width: 16px
+  height: 16px
+
+.fnd-44     
+  background-color: #EFF2D5
+  border-radius: 10px
+  p 
+    text-align: left
+  p::first-letter 
+    text-transform: uppercase
+.img-tar
+  max-height: 80px
+.img-tar1
+  max-width: 98px 
+.fnd-45    
+  background-color: #EDFAFE
+  border-radius: 10px
+  p 
+    text-align: left
+  p::first-letter 
+    text-transform: uppercase
+.img-tar
+  max-height: 100px
+.img-tar1
+  max-width: 98px 
+  
+ul
+  list-style-type: none
+
+ul.mt-0 li 
+  position: relative
+  padding-left: 1.5em
+
+ul.mt-0 li::before 
+  content: url('../assets/curso/temas/tema3/img7.svg')
+  position: absolute
+  left: 0
+  width: 16px
+  height: 16px
+
+
+ul.mb-0 li 
+  position: relative
+  padding-left: 1.5em
+
+ul.mb-0 li::before 
+  content: url('../assets/curso/temas/tema4/img11.svg')
+  position: absolute
+  left: 0
+  width: 16px
+  height: 16px
+
+ul.mb-1 li 
+  position: relative
+  padding-left: 1.5em
+
+ul.mb-1 li::before 
+  content: url('../assets/curso/temas/tema4/img38.svg')
+  position: absolute
+  left: 0
+  width: 16px
+  height: 16px
+
+.fnd
+  background-color: #EFE2D9
+  padding: 1em
+.fnd-2
+  background-color: #EDFAFE
+  padding: 1em
+
+.green_icon
+  background: #F6F8E9
+  display: inline-block
+  color: #12263F
+  padding: 5px 20px
+  position: relative
+  border-top-right-radius: 20px
+  border-bottom-left-radius: 20px
+  height: 35px
+
+  &:after
+    content: url(../assets/curso/temas/tema3/green_icon-1.svg) 
+    position: absolute
+    right: 10px
+    top: -9px
+  img
+    position: relative
+    right: 30px
+    top: -45px
+    width: 20px
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #AF7142
+    border-radius: 15px 15px 15px 15px
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+
+.row.justify-content-center
+  .col-auto
+    p
+      background: #57D3FB
+      width: fit-content
+      padding: 0.5em
+      border-radius: 20px
+      padding-left: 1em
+      padding-right: 1em
+      position: relative
+      top: -20px
+      justify-self: center
+      
+table thead th 
+  background-color: #D8ECFF
+
+.tabs-c__tab 
+  border-bottom: 4px solid #57D3FB
+  line-height: 1.2
+  text-align: center
+  display: flex
+  align-items: center
+  justify-content: center
+  position: relative
+
+.tarjeta--gris 
+    background-color: #DEF7FE
+
+.fondo-azul
+  background: #DCF6FE
+  border-radius: 25px
+  padding: 1em
+  margin-bottom: 0
+
+
+.crd_02 
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: start
+  align-items: center 
+  padding: 0rem 0.7rem 0rem 0   
+  z-index: 1
+  height: 150px
+
+  @media (min-width:1200px) and (max-width:1400px)  
+    height: 250px 
+  &::before
+    content: ""
+    position: absolute
+    top: 20px
+    right: 0
+    width: 90%
+    height: 70%    
+    background-color: #DCF6FE
+    border-radius: 15px
+    z-index: -1
+  &__icon
+    order: 1
+    flex-basis: auto
+    width: 70px
+    img   
+      width: 90%
+  &__txt
+    flex: 1 
+    order: 2    		
+			
