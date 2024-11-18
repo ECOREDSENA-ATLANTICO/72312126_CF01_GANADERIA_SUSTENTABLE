@@ -166,37 +166,37 @@
         SlyderA(tipo="b")
           .row.px-3.pt-3
             .col-lg-6.mb-4.mb-md-0.align-content-center
-              p <strong>Calcio:</strong> en forrajes varía de un 0,3 a un 2,5% y en plantas jóvenes se encuentra en mayor cantidad. En leguminosas se halla más que en gramíneas. El calcio ayuda a la fijación del nitrógeno y al desarrollo radicular.
+              p <strong>Calcio:</strong> en forrajes varía de un 0,3 a un 2,5% y en plantas jóvenes se encuentra en mayor cantidad. En leguminosas se halla más que en gramíneas. El calcio ayuda a la fijación del nitrógeno y al desarrollo radicular.<br><strong>Fuente: Evangelista (2011).</strong>
             .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema3/img14.png', alt='Imagen decorativa')
           .row.px-3.pt-3
             .col-lg-6.mb-4.mb-md-0.align-content-center
-              p <strong>Fósforo:</strong> se encuentra en forrajes en un rango de 0,1 a 0,5% siendo abundante en hojas y tallos, ayuda al desarrollo radicular y supervivencia de la planta.
+              p <strong>Fósforo:</strong> se encuentra en forrajes en un rango de 0,1 a 0,5% siendo abundante en hojas y tallos, ayuda al desarrollo radicular y supervivencia de la planta.<br><strong>Fuente: Evangelista (2011).</strong>
             .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema3/img15.png', alt='Imagen decorativa')
           .row.px-3.pt-3
             .col-lg-6.mb-4.mb-md-0.align-content-center
-              p <strong>Magnesio:</strong> este elemento en forrajes varía de 0,1 a 0,7% y la deficiencia de este elemento en la dieta de los rumiantes produce hipomagnesemia, es decir, un desorden metabólico por bajos contenidos de este elemento en la sangre. El magnesio está relacionado de algún modo con el metabolismo de los carbohidratos.
+              p <strong>Magnesio:</strong> este elemento en forrajes varía de 0,1 a 0,7% y la deficiencia de este elemento en la dieta de los rumiantes produce hipomagnesemia, es decir, un desorden metabólico por bajos contenidos de este elemento en la sangre. El magnesio está relacionado de algún modo con el metabolismo de los carbohidratos.<br><strong>Fuente: Evangelista (2011).</strong>
             .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema3/img16.png', alt='Imagen decorativa')
           .row.px-3.pt-3
             .col-lg-6.mb-4.mb-md-0.align-content-center
-              p <strong>Azufre:</strong> los forrajes contienen entre 0,1 y 0,4%, los microorganismos presentes en el rumen utilizan sulfatos para realizar síntesis de proteínas.
+              p <strong>Azufre:</strong> los forrajes contienen entre 0,1 y 0,4%, los microorganismos presentes en el rumen utilizan sulfatos para realizar síntesis de proteínas.<br><strong>Fuente: Evangelista (2011).</strong>
             .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema3/img17.png', alt='Imagen decorativa')
           .row.px-3.pt-3
             .col-lg-6.mb-4.mb-md-0.align-content-center
-              p <strong>Potasio:</strong> este elemento se encuentra en forrajes entre 1 y 4% y disminuye a medida que la planta va envejeciendo, en leguminosas se halla en más cantidad que en gramíneas. Cuando los bovinos consumen hierbas tiernas están ingiriendo más cantidad de potasio, lo que puede producir un efecto laxante.
+              p <strong>Potasio:</strong> este elemento se encuentra en forrajes entre 1 y 4% y disminuye a medida que la planta va envejeciendo, en leguminosas se halla en más cantidad que en gramíneas. Cuando los bovinos consumen hierbas tiernas están ingiriendo más cantidad de potasio, lo que puede producir un efecto laxante.<br><strong>Fuente: Evangelista (2011).</strong>
             .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema3/img18.png', alt='Imagen decorativa')
           .row.px-3.pt-3
             .col-lg-6.mb-4.mb-md-0.align-content-center
-              p <strong>Sodio y cloro:</strong> estos elementos se encuentran en los forrajes en forma de sales, pero no están en cantidades suficientes para suplir las necesidades de los bovinos.
+              p <strong>Sodio y cloro:</strong> estos elementos se encuentran en los forrajes en forma de sales, pero no están en cantidades suficientes para suplir las necesidades de los bovinos.<br><strong>Fuente: Evangelista (2011).</strong>
             .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa')

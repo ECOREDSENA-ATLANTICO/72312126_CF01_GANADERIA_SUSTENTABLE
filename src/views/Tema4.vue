@@ -69,7 +69,7 @@
         
         .row(titulo="Valor nutritivo")
           .col-lg-3.mb-4.mb-md-0.align-content-center
-            p Las gramíneas presentan bajo contenido de proteínas a diferencia de las leguminosas como el fríjol, alfalfa, kudzu, centrosema; siendo la época de prefloración cuando se encuentra en un promedio de un 10 a un 15%, a medida que la planta va creciendo el contenido de proteínas disminuye.
+            p Las gramíneas presentan bajo contenido de proteínas a diferencia de las leguminosas como el Fríjol, Alfalfa, Kudzu, Centrosema; siendo la época de prefloración cuando se encuentra en un promedio de un 10 a un 15%, a medida que la planta va creciendo el contenido de proteínas disminuye.
 
           .col-lg-9
             figure
@@ -116,19 +116,19 @@
               span Conocer la capacidad que tiene el pasto para crecer en el suelo, por esto es necesario que usted conozca las condiciones físicas y químicas del suelo (fertilidad, humedad y topografía).<br>
           ul.mb-0
             li
-              span En suelos fértiles se recomienda sembrar guinea y marandú.<br>
+              span En suelos fértiles se recomienda sembrar Guinea y Marandú.<br>
           ul.mb-0
             li
-              span En suelos con baja fertilidad usar brachiaria humidicola, andropogon y brachiaria decumbens.<br>
+              span En suelos con baja fertilidad usar Brachiaria humidicola, Andropogon y Brachiaria decumbens.<br>
           ul.mb-0
             li
-              span En suelos con mal drenaje usar pasto jazmín, setaria kasungula y brachiaria humidícola.<br>
+              span En suelos con mal drenaje usar pasto Jazmín, Setaria kasungula y Brachiaria humidícola.<br>
           ul.mb-0
             li
-              span Para terreno de uso intensivo en verano y de altos niveles de fertilización usar pasto Tanzania y elefante.<br>
+              span Para terreno de uso intensivo en verano y de altos niveles de fertilización usar pasto Tanzania y Elefante.<br>
           ul.mb-0
             li
-              span En problemas por el insecto como el salivazo es recomendado usar plantas como el andropogon y pasto marandú.<br>
+              span En problemas por el Insecto como el salivazo es recomendado usar plantas como el Andropogon y pasto Marandú.<br>
 
   
     .row.justify-content-center.my-3
@@ -335,7 +335,7 @@
             span <em>Aforo por doble muestreo</em>
         figure
           img(src='@/assets/curso/temas/tema4/img39.svg', alt='Se muestra un aforo por doble muestreo.')
-        figcaption Nota. SENA.
+        figcaption Nota. SENA (2024).
 
     h5.mt-4.green_icon(data-aos="fade-left") El método más común para tomar la muestra en terreno es
       img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
@@ -358,12 +358,13 @@
 
     .row.justify-content-center.my-3
       .col-lg-10
+        P.my-3 La curva de crecimiento de cada especie de pasto. Entre más submuestras tome máspreciso será el promedio.
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
             h5 figura 4.
             span <em>Aforo en zigzag</em>
         figure
           img(src='@/assets/curso/temas/tema4/img43.svg', alt='Se muestra un aforo en zigzag.')
-        figcaption Nota. SENA.
+        figcaption Nota. SENA (2024).
 
     .row.justify-content-center(data-aos="flip-up")
       .col-lg-10  
@@ -467,7 +468,7 @@
             span <em>Especies de heno</em>
         figure
           img(src='@/assets/curso/temas/tema4/img50.svg', alt='Imagen decorativa')
-        figcaption Nota. SENA.
+        figcaption Nota. SENA (2024).
 
     .row.justify-content-center.my-4
       .col-lg-10.col-md-12
@@ -538,7 +539,7 @@
             span <em>Manejo manual del heno</em>
         figure
           img(src='@/assets/curso/temas/tema4/img51.svg', alt='Se muestra un procedimiento de manual de heno.')
-        figcaption Nota. SENA.
+        figcaption Nota. SENA (2024).
  
 
 

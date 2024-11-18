@@ -110,9 +110,9 @@ export default {
   complementario: [
     {
       tema: 'Ganadería sustentable',
-      referencia: 'Ecosistema recursos SENA [Video]. YouTube.',
+      referencia: 'Cuales son los Modelos para una Ganadería Sustentable',
       tipo: 'Video',
-      link: 'https://www.youtube.com/embed/Rjnkr7UCs34?si=UDiLqQ33awXWhQnw',
+      link: 'https://www.youtube.com/embed/Rjnkr7UCs34?si=deACReNVWAiWo_Lk',
     },
   ],
   glosario: [
@@ -152,7 +152,8 @@ export default {
     {
       referencia:
         'Franco, L., Calero, D. y Ávila, P. (2007). Alternativas para la conservación de forrajes. Consultado el 27 de marzo de 2015.',
-      link: 'http://www.bdigital.unal.edu.co/5028/1/9789584411747.pdf',
+      link:
+        'https://repositorio.unal.edu.co/bitstream/handle/unal/8413/9789584411747.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:

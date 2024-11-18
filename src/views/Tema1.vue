@@ -56,7 +56,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img4.png')})`}"
         )
         .bloque-texto-g__texto.p-3(data-aos="fade-left")(style="background: #DFC6B3")
-          p.mb-1 Casi siempre el enfoque que se le da a una finca es un sistema productivo, pero es importante también realizar el enfoque de medios de vida, ya que se analiza el papel de la familia y el aporte que esta da en dotación de capitales, por lo que hace que el seno familiar se vea como unidad de análisis. Para esto el Departamento Internacional de Desarrollo (DFID) plantea valorar cinco formas de capitales o activos de medios de vida, para que haya un diagnóstico integral de la finca los cuales son: capital físico, capital humano, capital social, capital financiero y capital natural.
+          p.mb-1 Casi siempre el enfoque que se le da a una finca es un sistema productivo, pero es importante también realizar el enfoque de medios de vida, ya que se analiza el papel de la familia y el aporte que esta da en dotación de capitales, por lo que hace que el seno familiar se vea como unidad de análisis. Para esto el Departamento Internacional de Desarrollo (DFID) plantea valorar cinco formas de capitales o activos de medios de vida, para que haya un diagnóstico integral de la finca los cuales son: capital físico, capital humano, capital social, capital financiero y capital natural.<br>
           p.mb-0 Para realizar el diagnóstico de capitales del hogar se debe considerar la siguiente información:
           
     .row.justify-content-center.mb-3.mt-4.fondo-imagen.p-4
@@ -111,7 +111,7 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/img11.svg', alt='Se muestra un croquis de una finca.')
-              figcaption Nota. SENA
+              figcaption Nota. SENA (2024).
 
           .tarjeta.color-white.p-3(x="39%" y="55%" numero="1")
             .h5.mb-2 Pasturas
@@ -173,7 +173,7 @@
                 h5 Tabla 1.
                 span <em>Uso del suelo áreas</em>
             .tabla-b
-              table.text-center
+              table
                 caption Nota. Mora (2005)
                 thead
                   tr
@@ -256,7 +256,7 @@
           .col.px-0
             h3.mb-0 Ejecución del plan de finca
 
-        p.my-3 En esta fase se contemplan las opciones que ayudan a conservar los recursos naturales y a satisfacer las necesidades de la familia. A continuación, se mencionan algunas alternativas y su importancia de incorporarlas en el sistema de finca.
+        p.my-3 En esta fase se contemplan las opciones que ayudan a conservar los recursos naturales y a satisfacer las necesidades de la familia.
         p.my-3 A continuación, se mencionan algunas alternativas y su importancia de incorporarlas en el sistema de finca:
 
         
@@ -317,7 +317,7 @@
             span <em>El recurso agua</em>
         figure(data-aos="zoom-up")
           img(src='@/assets/curso/temas/tema1/img19.png', alt='Se muestra una imagen del recurso agua.')
-        figcaption Nota. SENA
+        figcaption Nota. SENA (2024).
 
     .row.justify-content-center.my-3
       .col-lg-4.col-md-6.align-content-center(data-aos="fade-right")

@@ -135,7 +135,8 @@ export default {
         },
         {
           id: 10,
-          texto: '¿Qué invento se le atribuye a Alexander Graham Bell?',
+          texto:
+            'Las fincas ganaderas deben contar con un buen sistema de información, el cual debe registrar todos los acontecimientos que ocurren en el sistema de producción.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
