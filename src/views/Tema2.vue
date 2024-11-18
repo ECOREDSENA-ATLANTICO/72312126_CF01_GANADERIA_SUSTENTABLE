@@ -9,7 +9,7 @@
 
     p.mb-4 Las fincas ganaderas deben contar con un buen sistema de información, el cual debe registrar todos los acontecimientos que ocurren en el sistema de producción. La información que se genera en todas las unidades productivas se debe registrar en formatos para así generar una base de datos. Para catalogar la información de la finca ganadera se deben tener en cuenta los siguientes aspectos claves:
 
-    SlyderF.custom.ali(columnas="col-lg-4 col-md-12")(data-aos="flip-up")
+    SlyderF.custom.ali(columnas="col-lg-4 col-md-6")(data-aos="flip-up")
       .tarjeta.tarjeta--slyder.p-4.fnd-44
         figure.mb-4(data-aos="zoom-in")(style="justify-items: end")
           img.img-tar1(src="@/assets/curso/temas/tema2/img1.svg")

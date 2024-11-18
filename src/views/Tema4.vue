@@ -10,7 +10,7 @@
     .row.justify-content-center
       .col-lg-4.col-md-6.align-content-end(data-aos="fade-right")
         figure
-          img.my-3(src='@/assets/curso/temas/tema4/img1.png', alt='Texto que describa la imagen')
+          img.my-3(src='@/assets/curso/temas/tema4/img1.png', alt='Texto que describa la imagen')(style="min-height: 400px")
       .col-lg-8(data-aos="fade-left")
         p.mb-2 El pasto es una gramínea que es utilizada como forraje para la alimentación  animal porque provee nutrientes como carbohidratos, proteínas, aminoácidos, minerales y vitaminas, esto hace del pasto un alimento completo y económico. Las pasturas crecen en áreas destinadas a la producción ganadera de bovinos, entonces se puede decir que el pasto es un cultivo que debe considerarse una unidad productiva dentro del sistema de producción. Es importante saber en un predio la disponibilidad que se tiene de este cultivo.
         .row.justify-content-center.fnd
@@ -105,31 +105,32 @@
             figure
               img(src='@/assets/curso/temas/tema4/img9.png', alt='Texto que describa la imagen')
 
-    .row.justify-content-start.my-3(style="background: #F6F8E9")
-      .col-lg-5.col-md-8.align-content-center
-        figure
-          img(style="position: relative; right: 10px")(src='@/assets/curso/temas/tema4/img10.png', alt='Texto que describa la imagen')
-      .col-lg-7.p-4
-        p.mb-3 <strong>Recomendaciones para tener en cuenta en pastos que se adapten mejor a su finca:</strong>
-        ul.mb-0
-          li
-            span Conocer la capacidad que tiene el pasto para crecer en el suelo, por esto es necesario que usted conozca las condiciones físicas y químicas del suelo (fertilidad, humedad y topografía).
-        ul.mb-0
-          li
-            span En suelos fértiles se recomienda sembrar guinea y marandú.
-        ul.mb-0
-          li
-            span En suelos con baja fertilidad usar brachiaria humidicola, andropogon y brachiaria decumbens.
-        ul.mb-0
-          li
-            span En suelos con mal drenaje usar pasto jazmín, setaria kasungula y brachiaria humidícola.
-        ul.mb-0
-          li
-            span Para terreno de uso intensivo en verano y de altos niveles de fertilización usar pasto Tanzania y elefante.
-        ul.mb-0
-          li
-            span En problemas por el insecto como el salivazo es recomendado usar plantas como el andropogon y pasto marandú.
+    .bloque-texto-g.p-3.p-sm-4.p-md-5.my-4(data-aos="flip-up")(style="background: #F6F8E9")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img10.png')})`}"
+      )
+      .bloque-texto-g__texto.p-3(data-aos="fade-left")(style="background: #F6F8E9")
+        p.mb-3 <strong>Recomendaciones para tener en cuenta en pastos que se adapten mejor a su finca:</strong><br>
+          ul.mb-0
+            li
+              span Conocer la capacidad que tiene el pasto para crecer en el suelo, por esto es necesario que usted conozca las condiciones físicas y químicas del suelo (fertilidad, humedad y topografía).<br>
+          ul.mb-0
+            li
+              span En suelos fértiles se recomienda sembrar guinea y marandú.<br>
+          ul.mb-0
+            li
+              span En suelos con baja fertilidad usar brachiaria humidicola, andropogon y brachiaria decumbens.<br>
+          ul.mb-0
+            li
+              span En suelos con mal drenaje usar pasto jazmín, setaria kasungula y brachiaria humidícola.<br>
+          ul.mb-0
+            li
+              span Para terreno de uso intensivo en verano y de altos niveles de fertilización usar pasto Tanzania y elefante.<br>
+          ul.mb-0
+            li
+              span En problemas por el insecto como el salivazo es recomendado usar plantas como el andropogon y pasto marandú.<br>
 
+  
     .row.justify-content-center.my-3
       .col-lg-10.col-md-12
         h5.mt-4.green_icon(data-aos="fade-left") Pasto de corte
@@ -201,27 +202,27 @@
             .col-lg-6.mb-4.mb-md-0.align-content-center
               p Las especies de pastos se adaptan a pisos térmicos desde 0 a 1.800 m.s.n.m. por encima de los 18.000. Su producción se reduce porque hay menos radiación solar, lo que hace que la capacidad fotosintética sea menor, sin embargo, algunos de los pastos se adaptan bien a esta altura.
               p.mt-2 Debido a la biomasa que producen los pastos, se requiere de mucha agua. Entre mayor estén al nivel del mar, van a necesitar más agua para riego y entre más pobre sea el suelo, más limitado será su desarrollo y producción.
-            .col-lg-6
+            .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema4/img26.png', alt='Imagen decorativa')        
           .row.px-3.pt-3
             .col-lg-6.mb-4.mb-md-0.align-content-center
               p De las especies de pastos vistas anteriormente algunas se han mejorado genéticamente para que resistan ataques de plagas y épocas de sequía. Estos pastos se pueden llamar rústicos, es decir, que no necesitan aportes adicionales de nutrientes, con lo que el suelo les suministra hace que se desarrollen.
               p.mt-2 Los pastos no se adaptan a suelos inundados a pesar de que son una especie de alta extracción.
-            .col-lg-6
+            .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema4/img27.png', alt='Imagen decorativa')        
           .row.px-3.pt-3
             .col-lg-6.mb-4.mb-md-0.align-content-center
               p Los pastos una vez alcanzan la edad de floración empiezan a producir inflorescencias, es decir, espinas, lo que significa que han perdido un 30% de su calidad nutricional y a medida que van aumentando la edad de ser cosechado, la lignificación se acrecienta, por lo que aumenta la pérdida nutricional, lo que quiere decir que cada vez son menos digestibles para los rumiantes que los consumen.
-            .col-lg-6
+            .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema4/img28.png', alt='Imagen decorativa')        
           .row.px-3.pt-3
             .col-lg-6.mb-4.mb-md-0.align-content-center
               p Los pastos nunca se deben cosechar en periodo de crecimiento o en edad de floración, pues cuando se encuentran en estado juvenil no se han desarrollado completamente y pueden intoxicar al animal o generarles problemas de digestión, haciendo que este excrete mucho, por ello los pastos deben ser cosechados en el tiempo requerido por la especie, con el fin de aprovechar todo su contenido nutricional.
               p.mt-2 Se ha comprobado que ningún pasto cubre el 100% del requerimiento nutricional del ganado bovino a pesar de que este tenga su mejor valor nutricional, por eso es falso afirmar que se puedan reemplazar pastos por concentrados.
-            .col-lg-6
+            .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema4/img29.png', alt='Imagen decorativa')
                 
@@ -229,9 +230,9 @@
       img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
 
     .row.justify-content-center.my-3
-      .col-lg-3.col-md-5.align-content-end
+      .col-lg-3.col-md-5.align-content-center
         figure
-          img.my-3(src='@/assets/curso/temas/tema4/img30.png', alt='Texto que describa la imagen')
+          img.my-3(src='@/assets/curso/temas/tema4/img30.png', alt='Texto que describa la imagen')(style="min-height: 350px")
       .col-lg-9.align-content-center
         p.my-2 Las leguminosas forrajeras tienen buena capacidad de fijar nitrógeno, sus hojas lo convierten en forma de proteínas, por esta razón estas plantas tienen alto contenido de proteína que puede variar entre 14 y 32% en hojas y semillas y  tienen la particularidad de conservar esos porcentajes por largos periodos sin que el verano les afecte.
         p.mb-2 Esta especie forrajera es pobre en fibra lo que la hace más digestible y altamente aprovechable por los bovinos, además su contenido en carbohidratos es similar al pasto.
@@ -295,7 +296,7 @@
             img.img-tar1(src="@/assets/curso/temas/tema4/img34.svg")
           h5.mb-3 Calidad y cantidad de semillas:
           p.mb-3 La calidad de la semilla es muy importante para un cultivo porque de esta dependen las características fenotípicas de la especie vegetal y la viabilidad de la germinación. Cuando se utilizan semillas de baja calidad se debe aumentar la cantidad para garantizar que germine una buena población de plántulas y así asegurar una buena cobertura del suelo y un rápido establecimiento de la pradera. Cuando se utilizan semillas de producción artesanal, es decir, no certificadas, es aconsejable realizar pruebas de germinación para determinar la cantidad de material de siembra y su vigor. Al establecer praderas con material vegetativo como tallos, cepas o estolones es mejor sembrarlos en los meses de lluvias para así asegurar un buen desarrollo de las plantas.
-      .col-lg-6.m-0(data-aos="fade-left")
+      .col-lg-6.m-0.my-3(data-aos="fade-left")
         .tarjeta.tarjeta--slyder.p-4.fnd-44
           figure.mb-4(data-aos="zoom-in")(style="justify-items: end")
             img.img-tar1(src="@/assets/curso/temas/tema4/img35.svg")
@@ -306,7 +307,7 @@
     .row.justify-content-center.my-3(data-aos="flip-up")
       .col-lg-10.col-md-12
         .row.fnd-img.justify-content-end
-          .col-lg-8.p-4
+          .col-lg-8.px-4.pt-3
             p.mb-2 <strong>¿Por qué se debe realizar aforo en un potrero?</strong>
               ul.mb-1 
                 li
@@ -330,10 +331,10 @@
     .row.justify-content-center(data-aos="flip-up")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
-            h5 figura 2.
+            h5 figura 3.
             span <em>Aforo por doble muestreo</em>
         figure
-          img(src='@/assets/curso/temas/tema4/img39.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img39.svg', alt='Se muestra un aforo por doble muestreo.')
         figcaption Nota. SENA.
 
     h5.mt-4.green_icon(data-aos="fade-left") El método más común para tomar la muestra en terreno es
@@ -345,7 +346,7 @@
         p.mb-3 Luego colocar en el área donde está el pasto el cuadro abarcando más o menos dos surcos y cortar el pasto que está dentro del cuadrado.
         p Pesar cada muestra, sumar y dividir por la cantidad de muestras tomadas.
       .col-lg-5.my-3
-        SlyderF.custom(columnas="col-lg-12 col-md-12")
+        SlyderF.custom(columnas="col-lg-12 col-md-6")
           img(src='@/assets/curso/temas/tema4/img40.svg', alt='Imagen decorativa')
           img(src='@/assets/curso/temas/tema4/img41.svg', alt='Imagen decorativa')
           img(src='@/assets/curso/temas/tema4/img42.svg', alt='Imagen decorativa')
@@ -358,10 +359,10 @@
     .row.justify-content-center.my-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
-            h5 figura 3.
+            h5 figura 4.
             span <em>Aforo en zigzag</em>
         figure
-          img(src='@/assets/curso/temas/tema4/img43.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img43.svg', alt='Se muestra un aforo en zigzag.')
         figcaption Nota. SENA.
 
     .row.justify-content-center(data-aos="flip-up")
@@ -392,8 +393,8 @@
               ul.mt-0 
                 li
                   span Aumenta la vida útil de las leguminosas y por medio de la fermentación se reduce el peligro de timpanismo, causado por el consumo de leguminosas tiernas.    
-      .col-lg-3.col-md-4.align-content-end(data-aos="fade-up")
-        img.my-3(src='@/assets/curso/temas/tema4/img44.png', alt='Imagen decorativa')
+      .col-lg-3.col-md-4.align-content-end(data-aos="fade-up").align-content-center
+        img.my-3(src='@/assets/curso/temas/tema4/img44.png', alt='Imagen decorativa')(style="min-height: 550px")
 
     .row.justify-content-center
       .col-lg-10
@@ -441,7 +442,7 @@
       .col-lg-3.col-md-5.my-3
         figure
           img.my-3(src="@/assets/curso/temas/tema4/img49.png")
-      .col-lg-8
+      .col-lg-6
         SlyderF.custom(columnas="col-lg-6 col-md-6")
           .tarjeta.tarjeta--slyder.p-3.fnd-4
             p.mb-0 <strong>De montón:</strong> este tipo de silo se hace colocando un plástico en una superficie sobre la cual se van a poner las capas de pasto que se van compactando, luego se cubre con otro plástico evitando que entre aire y encima del silo se ponen objetos pesados. Esta técnica es muy usada para productores con gran número de animales.
@@ -454,15 +455,15 @@
           .tarjeta.tarjeta--slyder.p-3.fnd-4
             p.mb-0 <strong>Silo de bunker:</strong> esta técnica se parece a la de silo de trinchera con la diferencia de que esta solo tiene dos paredes inclinadas y los extremos están abiertos.
     
-    h5.mt-4.green_icon(data-aos="fade-left") Heno
-      img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
-    p.my-3 El heno es un producto que resulta de reducir la cantidad de agua de 15 a 25% en el forraje. Cuando el heno se ha secado bien puede ser almacenado, siendo este producto la fuente más económica de nutrientes para los animales, con excepción del pastoreo directo. 
-    p.my-3 El objetivo principal de hacer heno es aprovechar el pasto que se produce en época de lluvias, para luego suministrarlo al ganado en épocas duras como sequías o lluvias intensas. Con la implementación de esta técnica se puede mantener un alto nivel por año en la ganadería.
 
     .row.justify-content-center.my-4
       .col-lg-10
+        h5.mt-4.green_icon(data-aos="fade-left") Heno
+          img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
+        p.my-3 El heno es un producto que resulta de reducir la cantidad de agua de 15 a 25% en el forraje. Cuando el heno se ha secado bien puede ser almacenado, siendo este producto la fuente más económica de nutrientes para los animales, con excepción del pastoreo directo. 
+        p.my-3 El objetivo principal de hacer heno es aprovechar el pasto que se produce en época de lluvias, para luego suministrarlo al ganado en épocas duras como sequías o lluvias intensas. Con la implementación de esta técnica se puede mantener un alto nivel por año en la ganadería.
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
-            h5 figura 4.
+            h5 figura 5.
             span <em>Especies de heno</em>
         figure
           img(src='@/assets/curso/temas/tema4/img50.svg', alt='Imagen decorativa')
@@ -533,10 +534,10 @@
         h5.mt-4.green_icon(data-aos="fade-left") Elaboración y manejo manual de heno
           img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
         .titulo-sexto.color-acento-contenido.mb-3.my-3(data-aos="fade-left")
-            h5 figura 5.
+            h5 figura 6.
             span <em>Manejo manual del heno</em>
         figure
-          img(src='@/assets/curso/temas/tema4/img51.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img51.svg', alt='Se muestra un procedimiento de manual de heno.')
         figcaption Nota. SENA.
  
 

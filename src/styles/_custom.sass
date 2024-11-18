@@ -2,23 +2,24 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 15%
+    top: 0%
     right: 80%
   &-2
     animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 55%
+    right: 70%
   &-3
     animation: float3 2.8s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 20%
+    right: 10%
   &-4
     animation: float4 2.8s ease-in-out infinite alternate
     position: absolute
     top: 1%
     right: 1%
+    height: 100%
 
 .banner-principal
   &__img
@@ -50,10 +51,10 @@
     transform: translateY(80px)
 @keyframes float4
   0%
-    transform: translateY(120px)
+    transform: translateY(10px)
 
   100%
-    transform: translateY(80px)
+    transform: translateY(50px)
 
 .banner-principal .tarjeta 
   background-color: #B5C430
@@ -95,6 +96,11 @@
   border-radius: 20px
 .fondo-imagen4
   background-image: url(../assets/curso/temas/tema4/img25.png) !important
+  background-repeat: no-repeat
+  background-size: cover !important
+  border-radius: 20px
+.fondo-imagen-5
+  background-image: url(../assets/curso/temas/tema1/img23.png) !important
   background-repeat: no-repeat
   background-size: cover !important
   border-radius: 20px
@@ -383,3 +389,24 @@ table thead th
     flex: 1 
     order: 2    		
 			
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #AF7142
+  border: 1px solid #AF7142
+
+.row.justify-content-center.mb-3.mt-4.fondo-imagen4.p-4 .tarjeta.tarjeta--blanca.p-4
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    background-color: #B1BF34
+    border: 1px solid #B1BF34
+
+.row.justify-content-center.mb-3.mt-4.fondo-imagen2.p-4 .tarjeta.tarjeta--blanca.p-2
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    background-color: #B1BF34
+    border: 1px solid #B1BF34
+
+@media (min-width:800px) and (max-width:1024px)  
+  .row.justify-content-center.align-items-center.mb-3.p-4 .col-lg-3.col-md-5.my-3
+    figure  
+      width: 700px
+  .col-lg-6
+    width: 700px
+    
