@@ -290,13 +290,13 @@
         img.my-3(src='@/assets/curso/temas/tema4/img33.png', alt='Imagen decorativa')
 
     .row.justify-content-center
-      .col-lg-6.m-0(data-aos="fade-right")
+      .col-lg-6.m-0.mt-3(data-aos="fade-right")
         .tarjeta.tarjeta--slyder.p-4.fnd-45
           figure.mb-4(data-aos="zoom-in")(style="justify-items: end")
             img.img-tar1(src="@/assets/curso/temas/tema4/img34.svg")
           h5.mb-3 Calidad y cantidad de semillas:
           p.mb-3 La calidad de la semilla es muy importante para un cultivo porque de esta dependen las características fenotípicas de la especie vegetal y la viabilidad de la germinación. Cuando se utilizan semillas de baja calidad se debe aumentar la cantidad para garantizar que germine una buena población de plántulas y así asegurar una buena cobertura del suelo y un rápido establecimiento de la pradera. Cuando se utilizan semillas de producción artesanal, es decir, no certificadas, es aconsejable realizar pruebas de germinación para determinar la cantidad de material de siembra y su vigor. Al establecer praderas con material vegetativo como tallos, cepas o estolones es mejor sembrarlos en los meses de lluvias para así asegurar un buen desarrollo de las plantas.
-      .col-lg-6.m-0.my-3(data-aos="fade-left")
+      .col-lg-6.m-0.mt-3(data-aos="fade-left")
         .tarjeta.tarjeta--slyder.p-4.fnd-44
           figure.mb-4(data-aos="zoom-in")(style="justify-items: end")
             img.img-tar1(src="@/assets/curso/temas/tema4/img35.svg")
