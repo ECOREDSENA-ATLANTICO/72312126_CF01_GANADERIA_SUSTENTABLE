@@ -6,14 +6,14 @@
       .titulo-principal__numero
         span 1
       h1 Generalidades de la ganadería sustentable
-      
-    .row.justify-content-center.mb-3
-      .col-lg-6
-        p.mb-3 Cuando se habla de ganadería sustentable se hace referencia a los diferentes mecanismos que se utilizan para que el sistema llamado finca ganadera sea más productivo y se conserven los recursos naturales de manera eficiente sin causar ningún tipo de impacto sobre el ecosistema. 
-        p.mb-3 Para ello, se requiere usar herramientas de planificación de la finca que ayuden a determinar los recursos potenciales y totales de esta. Así también, se hace relevante conocer la problemática, expectativas de los productores a futuro y las estrategias tecnológicas que pueden mejorar el sistema ganadero.
-      .col-lg-6.col-md-8.align-content-center(data-aos="fade-left")
-        figure
-          img.my-3(src="@/assets/curso/temas/tema1/img1.png", alt="imagen decorativa")(style="min-height: 220px")
+
+    .row.justify-content-center.my-3
+      .col-lg-7
+        p Cuando se habla de ganadería sustentable se hace referencia a los diferentes mecanismos que se utilizan para que el sistema llamado finca ganadera sea más productivo y se conserven los recursos naturales de manera eficiente sin causar ningún tipo de impacto sobre el ecosistema. 
+        p.my-3 Para ello, se requiere usar herramientas de planificación de la finca que ayuden a determinar los recursos potenciales y totales de esta. Así también, se hace relevante conocer la problemática, expectativas de los productores a futuro y las estrategias tecnológicas que pueden mejorar el sistema ganadero.
+      .col-lg-5.col-md-8.align-content-center
+        img(src="@/assets/curso/temas/tema1/img1.png", alt="imagen decorativa")(style="height:100%")
+    
 
     .row.mt-5.mb-4.align-items-center(data-aos="fade-left")
       .col-auto
@@ -66,7 +66,7 @@
             .col-lg-6.mb-4.mb-md-0.align-content-center
               h4 Capital físico
                 p.mt-4 Hace referencia a la infraestructura pública y privada. Cuando se habla de infraestructura pública se hace referencia al acceso de vías, carreteras principales y caminos, disponibilidad a servicios públicos (electricidad, agua, alcantarillado, teléfono, entre otros). La infraestructura privada hace referencia a los bienes e inmuebles que posee el predio como: casa, bodegas, salas de ordeño, corrales, bretes y embarcaderos.
-            .col-lg-6
+            .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema1/img6.png', alt='Imagen decorativa')
           
@@ -74,7 +74,7 @@
             .col-lg-6.col-md-12.mb-4.mb-md-0.align-content-center
               h4 Capital humano
                 p.mt-4 Se incluyen todos los miembros del núcleo familiar distribuidos por edad y género. En capital humano se tiene en cuenta el nivel de escolaridad y el estado de salud de la familia.
-            .col-lg-6
+            .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema1/img7.png', alt='Imagen decorativa')
           
@@ -82,7 +82,7 @@
             .col-lg-6.col-md-12.mb-4.mb-md-0.align-content-center
               h4 Capital social
                 p.mt-4 Se valora el número de instituciones de las cuales hace parte el núcleo familiar por ejemplo asociaciones u organizaciones públicas y relaciones de confianza o solidaridad con los miembros de la comunidad.
-            .col-lg-6
+            .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema1/img8.png', alt='Imagen decorativa')
           
@@ -90,7 +90,7 @@
             .col-lg-6.col-md-12.mb-4.mb-md-0.align-content-center
               h4 Capital financiero
                 p.mt-4 Se cuantifica el número de ingresos monetarios que provienen de la venta de productos, créditos, pensiones, entre otros.
-            .col-lg-6
+            .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema1/img9.png', alt='Imagen decorativa')
           
@@ -98,7 +98,7 @@
             .col-lg-6.col-md-12.mb-4.mb-md-0.align-content-center
               h4 Capital natural
                 p.mt-4 Hace referencia a la disponibilidad de los recursos naturales con los que cuenta el predio como tierra, salud del suelo en cuanto a materia orgánica, pedregosidad, drenaje, fuentes naturales de agua, diversidad biológica, fauna, manglares, bosques, salud de los cultivos (pastos), yacimientos minerales y minas. 
-            .col-lg-6
+            .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema1/img10.png', alt='Imagen decorativa')
 

@@ -349,7 +349,7 @@
         SlyderF.custom(columnas="col-lg-12 col-md-6")
           img(src='@/assets/curso/temas/tema4/img40.svg', alt='Imagen decorativa')
           img(src='@/assets/curso/temas/tema4/img41.svg', alt='Imagen decorativa')
-          img(src='@/assets/curso/temas/tema4/img42.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img42.png', alt='Imagen decorativa')
     
     .row.justify-content-center(data-aos="flip-up")
       .col-lg-10  
@@ -440,10 +440,10 @@
     p.my-3 De todos estos microorganismos, las bacterias ácido-lácticas son las que se deben generar en el ensilaje, pues son las que hacen que se prolongue la vida útil del forraje, por tal razón es importante realizar el proceso de ensilado y generar las condiciones óptimas para que se produzcan dichas bacterias.
 
     .row.justify-content-center.align-items-center.mb-3.p-4(data-aos="zoom-in")
-      .col-lg-3.col-md-5.my-3
+      .col-xl-3.col-lg-3.col-md-5.my-3
         figure
           img.my-3(src="@/assets/curso/temas/tema4/img49.png")
-      .col-lg-6
+      .col-xl-6.col-lg-12
         SlyderF.custom(columnas="col-lg-6 col-md-6")
           .tarjeta.tarjeta--slyder.p-3.fnd-4
             p.mb-0 <strong>De montón:</strong> este tipo de silo se hace colocando un plástico en una superficie sobre la cual se van a poner las capas de pasto que se van compactando, luego se cubre con otro plástico evitando que entre aire y encima del silo se ponen objetos pesados. Esta técnica es muy usada para productores con gran número de animales.

@@ -8,10 +8,10 @@
       h1 Alimentos en la nutrición de los bovinos
 
     .row.justify-content-center(data-aos="fade-up")
-      .col-lg-4.col-md-8.align-content-center
+      .col-xl-4.col-lg-5.col-md-8.align-content-center.order-xl-1.order-lg-2
         figure
           img.my-3(src='@/assets/curso/temas/tema3/img1.png', alt='Imagen decorativa')
-      .col-lg-8
+      .col-xl-8.col-lg-12.order-xl-2.order-lg-1
         p.mb-3 Los bovinos son muy versátiles en cuanto a la alimentación, esto quiere decir que se les puede suministrar una variedad de alimentos. El más conocido es el pasto, pero este no aporta todos los nutrientes que el animal necesita por lo que se hace importante que el productor ganadero conozca las diferentes alternativas nutricionales como son: 
         .row.justify-content-center
           .col-lg-6.col-md-6.crd--avatarHorizontal-left-bgr4.py-3.mb-3.m-auto
