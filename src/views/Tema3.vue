@@ -20,7 +20,7 @@
                 figure
                   img(src="@/assets/curso/temas/tema3/img2.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 Control de peso
+                p.mb-0 Forrajes
           .col-lg-6.col-md-6.crd--avatarHorizontal-left-bgr4.py-3.mb-3.m-auto
             .row.align-items-center.top
               .col-auto(style="z-index:1")
@@ -143,7 +143,7 @@
             .crd_hover_txt(data-aos="flip-left")
               .crd_hover_txt--img
                 figure
-                  img(src="@/assets/curso/temas/tema3/img12.png", alt="imagen decorativa")(style="height: 240px")
+                  img(src="@/assets/curso/temas/tema3/img12.png", alt="imagen decorativa")(style="height: 280px")
               .crd_hover_txt--body
                 h4.mb-3.text-light Grasas
                 p.mb-0.text-light El contenido de este compuesto en los forrajes es bajo y no es representativo porque presenta escasa digestibilidad en los rumiantes.
@@ -151,10 +151,10 @@
             .crd_hover_txt(data-aos="flip-left")
               .crd_hover_txt--img
                 figure
-                  img(src="@/assets/curso/temas/tema3/img13.png", alt="imagen decorativa")(style="height: 240px")
+                  img(src="@/assets/curso/temas/tema3/img13.png", alt="imagen decorativa")(style="height: 280px")
               .crd_hover_txt--body
                 h4.mb-3.text-light Minerales
-                p.mb-0.text-light Los forrajes contienen entre un 5 y 10% de cenizas, en las gramíneas se encuentran cuando la planta alcanza su madurez y en las leguminosas es constante a través del ciclo del cultivo.
+                p.mb-0.text-light Los forrajes contienen entre un 5 y 10% de cenizas, en las gramíneas se encuentran cuando la planta alcanza su madurez y en las leguminosas es constante a través del ciclo del cultivo. Los minerales presentes en los forrajes se dividen en microelementos y macroelementos.
     
     h5.mt-4.green_icon(data-aos="fade-left") Macroelementos
       img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')

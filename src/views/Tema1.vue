@@ -352,7 +352,7 @@
         h3.mb-0 Evaluación del grado de las acciones ejecutadas
 
     .row.justify-content-center
-      .col-lg-5
+      .col-lg-5.align-content-center
         p.my-3 En esta etapa final de la planificación, en ocasiones las metas se logran cumplir sin contratiempos, pero en otras las condiciones son adversas y hacen que los objetivos planeados en el proyecto no se logren según lo establecido. Es importante que cada año se realicen balances de desempeño de las mejoras implementadas en la finca ganadera.
         p.my-3 En la evaluación se deben resolver las siguientes preguntas:
       .col-lg-7.col-md-12.align-content-center

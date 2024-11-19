@@ -250,7 +250,7 @@
             figure
               img.my-3(src='@/assets/curso/temas/tema4/img31.svg', alt='Texto que describa la imagen')
 
-    h5.mt-4.green_icon(data-aos="fade-left") Generalidades del pasto de corte
+    h5.mt-4.green_icon(data-aos="fade-left") Selección de la pradera
       img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
 
     .row.justify-content-center.align-content-center(data-aos="fade-up")
@@ -341,26 +341,28 @@
       img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
 
     .row.justify-content-center.my-2
-      .col-lg-7.align-content-center
+      .col-lg-12.align-content-center
         p.mb-3 Construir un marco de un metro cuadrado de área (1m x 1m). Para esto se utiliza un tubo de PVC de media pulgada, partido en cuatro partes de un metro y formando un cuadrado, conseguir una báscula y un objeto para cortar como un machete, cuchillo o tijeras de jardinería.
         p.mb-3 Luego colocar en el área donde está el pasto el cuadro abarcando más o menos dos surcos y cortar el pasto que está dentro del cuadrado.
         p Pesar cada muestra, sumar y dividir por la cantidad de muestras tomadas.
-      .col-lg-5.my-3
-        SlyderF.custom(columnas="col-lg-12 col-md-6")
-          img(src='@/assets/curso/temas/tema4/img40.svg', alt='Imagen decorativa')
-          img(src='@/assets/curso/temas/tema4/img41.svg', alt='Imagen decorativa')
-          img(src='@/assets/curso/temas/tema4/img42.png', alt='Imagen decorativa')
     
     .row.justify-content-center(data-aos="flip-up")
-      .col-lg-10  
-        .cajon.color-primario.p-4(style="background: #EFF2D5")
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
+            h5 figura 4.
+            span <em>El método más común para tomar la muestra en terreno</em>
+        figure
+          img(src='@/assets/curso/temas/tema4/img52.svg', alt=' Se muestra un procedimiento.')
+        figcaption Nota. SENA (2024).
+        
+        .cajon.color-primario.p-4.my-3(style="background: #EFF2D5")
           p.mt-0.mb-0 Este procedimiento se debe realizar para cada especie de pasto a partir de los quince días después de la cosecha y se debe repetir cada 10 días. Luego con los datos recolectados se efectúa un plano cartesiano colocando la fecha en que fue tomada la muestra en el eje X y el peso en kilogramos del aforo en el eje Y, con el fin de determinar la curva de crecimiento de cada especie de pasto. Entre más submuestras tome más preciso será el promedio.
 
     .row.justify-content-center.my-3
       .col-lg-10
         P.my-3 La curva de crecimiento de cada especie de pasto. Entre más submuestras tome máspreciso será el promedio.
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
-            h5 figura 4.
+            h5 figura 5.
             span <em>Aforo en zigzag</em>
         figure
           img(src='@/assets/curso/temas/tema4/img43.svg', alt='Se muestra un aforo en zigzag.')
@@ -410,20 +412,18 @@
         .row.fnd-img-3
           .col-lg-4.col-md-8
             img.my-3(src='@/assets/curso/temas/tema4/img47.png', alt='Imagen decorativa')
-          .col-lg-8.p-4
-            p.mb-2 <strong>¿Por qué se debe realizar aforo en un potrero?</strong>
+          .col-lg-8.p-4.align-content-center
+            p.mb-2 <strong>Un buen ensilaje depende de la interacción de tres factores:</strong>
               ul.mt-0
                 li
-                  span La razón más relevante es para poder determinar la cantidad de pasto existente por lote y así poder planificar de forma eficaz el pastoreo.
+                  span Composición química de planta a ensilar.
               ul.mt-0
                 li
-                  span Este método sirve para hacer un pastoreo continuo haciendo rotación de lotes.
+                  span Las bacterias que se desarrollan en el material vegetal.
               ul.mt-0
                 li
-                  span Esto se hace para controlar la cantidad de pasto y así evitar que no se agote este recurso en zonas de pastoreo.
-              ul.mt-0
-                li
-                  span Cuando se determina la cantidad de pasto producido por hectárea se puede determinar la carga del animal.
+                  span Cantidad de aire presente dentro de la masa en el silo.
+
     h5.mt-4.green_icon(data-aos="fade-left") Principios de conservación del ensilaje
       img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
 
@@ -464,7 +464,7 @@
         p.my-3 El heno es un producto que resulta de reducir la cantidad de agua de 15 a 25% en el forraje. Cuando el heno se ha secado bien puede ser almacenado, siendo este producto la fuente más económica de nutrientes para los animales, con excepción del pastoreo directo. 
         p.my-3 El objetivo principal de hacer heno es aprovechar el pasto que se produce en época de lluvias, para luego suministrarlo al ganado en épocas duras como sequías o lluvias intensas. Con la implementación de esta técnica se puede mantener un alto nivel por año en la ganadería.
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
-            h5 figura 5.
+            h5 figura 6.
             span <em>Especies de heno</em>
         figure
           img(src='@/assets/curso/temas/tema4/img50.svg', alt='Imagen decorativa')
@@ -480,9 +480,9 @@
             caption Fuente: Franco, Calero y Ávila (2007)
             thead
               tr
-                th.text-light(colspan="5")(style="background: #575F19; border: 1.2px solid #000000") Calidad nutritiva en henos de algunas especies forrajeras:
+                th.text-light.text-center(colspan="5")(style="background: #575F19; border: 1.2px solid #000000") Calidad nutritiva en henos de algunas especies forrajeras
               tr
-                th(style="background: #B1BF34; border: 1.2px solid #000000") Reforestación protectora
+                th(style="background: #B1BF34; border: 1.2px solid #000000") Especies
                 th(style="border: 1.2px solid #000000; background: white") Materia seca %
                 th(style="border: 1.2px solid #000000; background: white") Proteína cruda %
                 th(style="border: 1.2px solid #000000; background: white") Fibra detergente neutra %
@@ -535,7 +535,7 @@
         h5.mt-4.green_icon(data-aos="fade-left") Elaboración y manejo manual de heno
           img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
         .titulo-sexto.color-acento-contenido.mb-3.my-3(data-aos="fade-left")
-            h5 figura 6.
+            h5 figura 7.
             span <em>Manejo manual del heno</em>
         figure
           img(src='@/assets/curso/temas/tema4/img51.svg', alt='Se muestra un procedimiento de manual de heno.')
