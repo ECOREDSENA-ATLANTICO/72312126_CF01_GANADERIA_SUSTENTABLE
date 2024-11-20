@@ -21,7 +21,7 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: 'La sustentabilidad es clave para la producción ganadera',
+          texto: 'La sustentabilidad es clave para la producción ganadera.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -58,7 +58,7 @@ export default {
         {
           id: 4,
           texto:
-            'Cuando se diseña un silo, el objetivo más importante es reducir en lo posible los factores que pueden causar daño al material a ensilar',
+            'Cuando se diseña un silo, el objetivo más importante es reducir en lo posible los factores que pueden causar daño al material a ensilar.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -71,7 +71,7 @@ export default {
         {
           id: 5,
           texto:
-            'Las especies de pastos se adaptan a pisos térmicos desde 0 a 1.800 m.s.n.m. por encima de los 18.000',
+            'Las especies de pastos se adaptan a pisos térmicos desde 0 a 1.800 m.s.n.m. por encima de los 18.000.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [

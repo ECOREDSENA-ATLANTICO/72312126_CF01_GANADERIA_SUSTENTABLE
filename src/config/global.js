@@ -93,7 +93,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/72312126_CF01_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -110,7 +110,8 @@ export default {
   complementario: [
     {
       tema: 'Ganadería sustentable',
-      referencia: 'Cuales son los Modelos para una Ganadería Sustentable',
+      referencia:
+        'Angel, J. G. (s.f). Cuales son los Modelos para una Ganadería Sustentable [Video]. TVAGRO.',
       tipo: 'Video',
       link: 'https://www.youtube.com/embed/Rjnkr7UCs34?si=deACReNVWAiWo_Lk',
     },

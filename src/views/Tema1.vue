@@ -177,11 +177,11 @@
                 caption Nota. Mora (2005)
                 thead
                   tr
-                    th.text-light(style="background: #AF7142; border: 1.2px solid #000000") Uso del suelo
-                    th(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas muy quebradas<br>< 40 %
-                    th(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas quebradas<br>20 a 40 %
-                    th(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas poco quebradas<br>5 - 20 %
-                    th(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas planas<br>< 5%
+                    th.text-center.text-light(style="background: #AF7142; border: 1.2px solid #000000") Uso del suelo
+                    th.text-center(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas muy quebradas<br>< 40 %
+                    th.text-center(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas quebradas<br>20 a 40 %
+                    th.text-center(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas poco quebradas<br>5 - 20 %
+                    th.text-center(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas planas<br>< 5%
                 tbody
                   tr
                     td Reforestación protectora

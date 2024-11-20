@@ -467,7 +467,7 @@
             h5 figura 6.
             span <em>Especies de heno</em>
         figure
-          img(src='@/assets/curso/temas/tema4/img50.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img50.svg', alt='Se muestran las especies que pueden ser utilizadas para henificar.')
         figcaption Nota. SENA (2024).
 
     .row.justify-content-center.my-4
