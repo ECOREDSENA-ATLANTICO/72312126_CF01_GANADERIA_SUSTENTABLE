@@ -146,9 +146,9 @@ export default {
     },
     {
       referencia:
-        'FEDEGAN y SENA. (2013). Manual de cómo elaborar un heno de buena calidad. Consultado el 27 de marzo de 2015',
+        'FEDEGAN y SENA. (2013). Manual de cómo elaborar un heno de buena calidad. Consultado el 27 de marzo de 2015.',
       link:
-        'http://www.fedegan.org.co/manual-de-como-elaborar-un-heno-de-buena-calidad',
+        'http://www.fedegan.org.co/manual-de-como-elaborar-un-heno-de-buena-calidad.',
     },
     {
       referencia:
@@ -158,12 +158,12 @@ export default {
     },
     {
       referencia:
-        'Mora, J. (2005). Planificación de fincas ganaderas eco amigables. Ibagué, Colombia: Universidad del Tolima',
+        'Mora, J. (2005). Planificación de fincas ganaderas eco amigables. Ibagué, Colombia: Universidad del Tolima.',
       link: '',
     },
     {
       referencia:
-        'Rúa, M. (2010). ¿Cómo aforar un potrero para pastorear correctamente? Consultado el 27 de marzo de 2015',
+        'Rúa, M. (2010). ¿Cómo aforar un potrero para pastorear correctamente? Consultado el 27 de marzo de 2015.',
       link:
         'https://www.engormix.com/lecheria/pastoreo-racional/como-aforar-potrero-pastoreo_a28633/',
     },
@@ -212,7 +212,7 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martinez Torres',
-          cargo: 'Diseñador <em>web</em>',
+          cargo: 'Diseñador web',
           centro:
             'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },

@@ -101,8 +101,9 @@
                     ul.mt-0 
                       li
                         span Palatabilidad.
+                    p Los principales componentes de los forrajes son producto de la energía solar que por medio de la fotosíntesis es transformada en energía química.
                   .col-lg-3.col-md-8
-                    img(src='@/assets/curso/temas/tema3/img9.svg', alt='Imagen decorativa')
+                    img.my-3(src='@/assets/curso/temas/tema3/img9.svg', alt='Imagen decorativa')
                 
     
                 p.my-3 Los forrajes están constituidos fundamentalmente por carbohidratos, proteínas, grasas, minerales (macroelementos y microelementos) y vitaminas.
@@ -149,7 +150,7 @@
               .col-auto.pe-2.img-l.d-none.d-lg-block
                 img(src="@/assets/curso/temas/tema3/img10.svg")
               .col
-                p.my-3 Los forrajes contienen entre un 5 y 10% de cenizas, en las gramíneas se encuentran cuando la planta alcanza su madurez y en las leguminosas es constante a través del ciclo del cultivo. 
+                p.my-3 Los forrajes contienen entre un 5 y 10 % de cenizas, en las gramíneas se encuentran cuando la planta alcanza su madurez y en las leguminosas es constante a través del ciclo del cultivo. 
                 
             p.my-3 Los minerales presentes en los forrajes se dividen en microelementos y macroelementos.
             
@@ -165,40 +166,40 @@
                 SlyderA(tipo="b")
                   .row.px-3.pt-3
                     .col-lg-6.mb-4.mb-md-0.align-content-center
-                      p <strong>Calcio:</strong> en forrajes varía de un 0,3 a un 2,5% y en plantas jóvenes se encuentra en mayor cantidad. En leguminosas se halla más que en gramíneas. El calcio ayuda a la fijación del nitrógeno y al desarrollo radicular.<br>
+                      p <strong>Calcio:</strong> en forrajes varía de un 0,3 a un 2,5 % y en plantas jóvenes se encuentra en mayor cantidad. En leguminosas se halla más que en gramíneas. El calcio ayuda a la fijación del nitrógeno y al desarrollo radicular.<br>
                     .col-lg-6.align-content-center
                       figure
                         img(src='@/assets/curso/temas/tema3/img14.png', alt='Imagen decorativa')
                   .row.px-3.pt-3
                     .col-lg-6.mb-4.mb-md-0.align-content-center
-                      p <strong>Fósforo:</strong> se encuentra en forrajes en un rango de 0,1 a 0,5% siendo abundante en hojas y tallos, ayuda al desarrollo radicular y supervivencia de la planta.<br>
+                      p <strong>Fósforo:</strong> se encuentra en forrajes en un rango de 0,1 a 0,5 % siendo abundante en hojas y tallos, ayuda al desarrollo radicular y supervivencia de la planta.<br>
                     .col-lg-6.align-content-center
                       figure
                         img(src='@/assets/curso/temas/tema3/img15.png', alt='Imagen decorativa')
                   .row.px-3.pt-3
                     .col-lg-6.mb-4.mb-md-0.align-content-center
-                      p <strong>Magnesio:</strong> este elemento en forrajes varía de 0,1 a 0,7% y la deficiencia de este elemento en la dieta de los rumiantes produce hipomagnesemia, es decir, un desorden metabólico por bajos contenidos de este elemento en la sangre. El magnesio está relacionado de algún modo con el metabolismo de los carbohidratos.<br>
-                    .col-lg-6.align-content-center
-                      figure
-                        img(src='@/assets/curso/temas/tema3/img16.png', alt='Imagen decorativa')
-                  .row.px-3.pt-3
-                    .col-lg-6.mb-4.mb-md-0.align-content-center
-                      p <strong>Azufre:</strong> los forrajes contienen entre 0,1 y 0,4%, los microorganismos presentes en el rumen utilizan sulfatos para realizar síntesis de proteínas.<br>
-                    .col-lg-6.align-content-center
-                      figure
-                        img(src='@/assets/curso/temas/tema3/img17.png', alt='Imagen decorativa')
-                  .row.px-3.pt-3
-                    .col-lg-6.mb-4.mb-md-0.align-content-center
-                      p <strong>Potasio:</strong> este elemento se encuentra en forrajes entre 1 y 4% y disminuye a medida que la planta va envejeciendo, en leguminosas se halla en más cantidad que en gramíneas. Cuando los bovinos consumen hierbas tiernas están ingiriendo más cantidad de potasio, lo que puede producir un efecto laxante.<br>
+                      p <strong>Potasio:</strong> este elemento se encuentra en forrajes entre 1 y 4 % y disminuye a medida que la planta va envejeciendo, en leguminosas se halla en más cantidad que en gramíneas. Cuando los bovinos consumen hierbas tiernas están ingiriendo más cantidad de potasio, lo que puede producir un efecto laxante.<br>
                     .col-lg-6.align-content-center
                       figure
                         img(src='@/assets/curso/temas/tema3/img18.png', alt='Imagen decorativa')
+                  .row.px-3.pt-3
+                    .col-lg-6.mb-4.mb-md-0.align-content-center
+                      p <strong>Magnesio:</strong> este elemento en forrajes varía de 0,1 a 0,7 % y la deficiencia de este elemento en la dieta de los rumiantes produce hipomagnesemia, es decir, un desorden metabólico por bajos contenidos de este elemento en la sangre. El magnesio está relacionado de algún modo con el metabolismo de los carbohidratos.<br>
+                    .col-lg-6.align-content-center
+                      figure
+                        img(src='@/assets/curso/temas/tema3/img16.png', alt='Imagen decorativa')
                   .row.px-3.pt-3
                     .col-lg-6.mb-4.mb-md-0.align-content-center
                       p <strong>Sodio y cloro:</strong> estos elementos se encuentran en los forrajes en forma de sales, pero no están en cantidades suficientes para suplir las necesidades de los bovinos.<br>
                     .col-lg-6.align-content-center
                       figure
                         img(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa')
+                  .row.px-3.pt-3
+                    .col-lg-6.mb-4.mb-md-0.align-content-center
+                      p <strong>Azufre:</strong> los forrajes contienen entre 0,1 y 0,4 %, los microorganismos presentes en el rumen utilizan sulfatos para realizar síntesis de proteínas.<br>
+                    .col-lg-6.align-content-center
+                      figure
+                        img(src='@/assets/curso/temas/tema3/img17.png', alt='Imagen decorativa')
                   .row.px-3.pt-3
                     .col-lg-6.mb-4.mb-md-0.align-content-center
                       p <strong>Silíceo:</strong> es absorbido por las raíces de las plantas, en las gramíneas se acumula más que en leguminosas, buena parte de este elemento se almacena en la pared celular de la planta, lo cual dificulta la digestibilidad por parte del animal.<br>
@@ -210,7 +211,7 @@
             h5.mt-4.green_icon(data-aos="fade-left") Microelementos
               img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
 
-            p.my-3 Los Microelementos, forman parte del sistema enzimático y hormonal, como por ejemplo el Hierro es constituyente de la hemo globina. El Calcio, Magnesio y Fósforo, forman los huesos, siendo estos la reserva ó el acumulador del Ca y P. Igualmente están el zinc, cobre, manganeso, yodo, hierro, selenio y cobalto. Cuando la ingestión de alguno de ellos no es suficiente, el organismo la toma de esas reservas satisfaciendo momentáneamente los requerimientos.
+            p.my-3 Los microelementos, forman parte del sistema enzimático y hormonal, como por ejemplo el Hierro es constituyente de la hemo globina. El Calcio, Magnesio y Fósforo, forman los huesos, siendo estos la reserva ó el acumulador del Ca y P. Igualmente están el Zinc, Cobre, Manganeso, Yodo, Hierro, Selenio y Cobalto. Cuando la ingestión de alguno de ellos no es suficiente, el organismo la toma de esas reservas satisfaciendo momentáneamente los requerimientos.
         .row.justify-content-center
           .col-lg-10
             h5.mt-4.green_icon(data-aos="fade-left") Vitaminas
@@ -236,8 +237,7 @@
           .p-4(style="background: #F6F0EA")(titulo="Forraje de flujo")
             .row.justify-content-center
               .col-md-12.col-lg-7.align-content-center
-                p.mb-2 Indica la cantidad de forraje disponible en cada una de las fuentes presentes en la finca durante cada mes.
-                p El modelo de planificación debe estar orientado a igualar las cargas del forraje de flujo con el consumo mensual de alimento por parte del ganado, naturalmente esto no resulta una tarea fácil, sin embargo, es posible emplear algunas estrategias para alcanzar dicho objetivo, entre las cuales se encuentra el sacrificio estratégico de ganado o la planificación de partos, además es posible planear excesos de producción de forraje para ciertas épocas del año, en donde la demanda de alimento se incrementa. 
+                p.mb-2 Indica la cantidad de forraje disponible en cada una de las fuentes presentes en la finca durante cada mes. El modelo de planificación debe estar orientado a igualar las cargas del forraje de flujo con el consumo mensual de alimento por parte del ganado, naturalmente esto no resulta una tarea fácil, sin embargo, es posible emplear algunas estrategias para alcanzar dicho objetivo, entre las cuales se encuentra el sacrificio estratégico de ganado o la planificación de partos, además es posible planear excesos de producción de forraje para ciertas épocas del año, en donde la demanda de alimento se incrementa. 
               .col-md-6.col-lg-5.mb-4.mb-md-0.align-content-center.justify-content-center
                 figure
                   img.my-3(src='@/assets/curso/temas/tema3/img22.png', alt='Texto que describa la imagen')

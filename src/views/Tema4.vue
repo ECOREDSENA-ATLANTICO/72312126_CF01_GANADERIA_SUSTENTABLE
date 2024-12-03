@@ -69,7 +69,7 @@
         
         .row(titulo="Valor nutritivo")
           .col-lg-3.mb-4.mb-md-0.align-content-center
-            p Las gramíneas presentan bajo contenido de proteínas a diferencia de las leguminosas como el Fríjol, Alfalfa, Kudzu, Centrosema; siendo la época de prefloración cuando se encuentra en un promedio de un 10 a un 15%, a medida que la planta va creciendo el contenido de proteínas disminuye.
+            p Las gramíneas presentan bajo contenido de proteínas a diferencia de las leguminosas como el Fríjol, Alfalfa, Kudzu, Centrosema; siendo la época de prefloración cuando se encuentra en un promedio de un 10 a un 15 %, a medida que la planta va creciendo el contenido de proteínas disminuye.
 
           .col-lg-9
             figure
@@ -116,19 +116,19 @@
               span Conocer la capacidad que tiene el pasto para crecer en el suelo, por esto es necesario que usted conozca las condiciones físicas y químicas del suelo (fertilidad, humedad y topografía).<br>
           ul.mb-0
             li
-              span En suelos fértiles se recomienda sembrar Guinea y Marandú.<br>
+              span En suelos fértiles se recomienda sembrar guinea y marandú.<br>
           ul.mb-0
             li
-              span En suelos con baja fertilidad usar Brachiaria humidicola, Andropogon y Brachiaria decumbens.<br>
+              span En suelos con baja fertilidad usar brachiaria humidicola, andropogon y brachiaria decumbens.<br>
           ul.mb-0
             li
-              span En suelos con mal drenaje usar pasto Jazmín, Setaria kasungula y Brachiaria humidícola.<br>
+              span En suelos con mal drenaje usar pasto jazmín, setaria kasungula y brachiaria humidícola.<br>
           ul.mb-0
             li
-              span Para terreno de uso intensivo en verano y de altos niveles de fertilización usar pasto Tanzania y Elefante.<br>
+              span Para terreno de uso intensivo en verano y de altos niveles de fertilización usar pasto tanzania y elefante.<br>
           ul.mb-0
             li
-              span En problemas por el Insecto como el salivazo es recomendado usar plantas como el Andropogon y pasto Marandú.<br>
+              span En problemas por el Insecto como el salivazo es recomendado usar plantas como el andropogon y pasto marandú.<br>
 
   
     .row.justify-content-center.my-3
@@ -214,14 +214,14 @@
                 img(src='@/assets/curso/temas/tema4/img27.png', alt='Imagen decorativa')        
           .row.px-3.pt-3
             .col-lg-6.mb-4.mb-md-0.align-content-center
-              p Los pastos una vez alcanzan la edad de floración empiezan a producir inflorescencias, es decir, espinas, lo que significa que han perdido un 30% de su calidad nutricional y a medida que van aumentando la edad de ser cosechado, la lignificación se acrecienta, por lo que aumenta la pérdida nutricional, lo que quiere decir que cada vez son menos digestibles para los rumiantes que los consumen.
+              p Los pastos una vez alcanzan la edad de floración empiezan a producir inflorescencias, es decir, espinas, lo que significa que han perdido un 30 % de su calidad nutricional y a medida que van aumentando la edad de ser cosechado, la lignificación se acrecienta, por lo que aumenta la pérdida nutricional, lo que quiere decir que cada vez son menos digestibles para los rumiantes que los consumen.
             .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema4/img28.png', alt='Imagen decorativa')        
           .row.px-3.pt-3
             .col-lg-6.mb-4.mb-md-0.align-content-center
               p Los pastos nunca se deben cosechar en periodo de crecimiento o en edad de floración, pues cuando se encuentran en estado juvenil no se han desarrollado completamente y pueden intoxicar al animal o generarles problemas de digestión, haciendo que este excrete mucho, por ello los pastos deben ser cosechados en el tiempo requerido por la especie, con el fin de aprovechar todo su contenido nutricional.
-              p.mt-2 Se ha comprobado que ningún pasto cubre el 100% del requerimiento nutricional del ganado bovino a pesar de que este tenga su mejor valor nutricional, por eso es falso afirmar que se puedan reemplazar pastos por concentrados.
+              p.mt-2 Se ha comprobado que ningún pasto cubre el 100 % del requerimiento nutricional del ganado bovino a pesar de que este tenga su mejor valor nutricional, por eso es falso afirmar que se puedan reemplazar pastos por concentrados.
             .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema4/img29.png', alt='Imagen decorativa')
@@ -234,7 +234,7 @@
         figure
           img.my-3(src='@/assets/curso/temas/tema4/img30.png', alt='Texto que describa la imagen')(style="min-height: 350px")
       .col-lg-9.align-content-center
-        p.my-2 Las leguminosas forrajeras tienen buena capacidad de fijar nitrógeno, sus hojas lo convierten en forma de proteínas, por esta razón estas plantas tienen alto contenido de proteína que puede variar entre 14 y 32% en hojas y semillas y  tienen la particularidad de conservar esos porcentajes por largos periodos sin que el verano les afecte.
+        p.my-2 Las leguminosas forrajeras tienen buena capacidad de fijar nitrógeno, sus hojas lo convierten en forma de proteínas, por esta razón estas plantas tienen alto contenido de proteína que puede variar entre 14 y 32 % en hojas y semillas y  tienen la particularidad de conservar esos porcentajes por largos periodos sin que el verano les afecte.
         p.mb-2 Esta especie forrajera es pobre en fibra lo que la hace más digestible y altamente aprovechable por los bovinos, además su contenido en carbohidratos es similar al pasto.
         .row.justify-content-center.fnd
           .col-lg-5
@@ -331,10 +331,10 @@
     .row.justify-content-center(data-aos="flip-up")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
-            h5 figura 3.
+            h5 Figura 3.
             span <em>Aforo por doble muestreo</em>
         figure
-          img(src='@/assets/curso/temas/tema4/img39.svg', alt='Se muestra un aforo por doble muestreo.')
+          img(src='@/assets/curso/temas/tema4/img39.svg', alt='Se muestra el aforo por doble muestreo, de la siguiente manera: punto de aforo, crecimiento alto, medio y bajo.')
         figcaption Nota. SENA (2024).
 
     h5.mt-4.green_icon(data-aos="fade-left") El método más común para tomar la muestra en terreno es
@@ -349,10 +349,10 @@
     .row.justify-content-center(data-aos="flip-up")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
-            h5 figura 4.
+            h5 Figura 4.
             span <em>El método más común para tomar la muestra en terreno</em>
         figure
-          img(src='@/assets/curso/temas/tema4/img52.svg', alt=' Se muestra un procedimiento.')
+          img(src='@/assets/curso/temas/tema4/img52.svg', alt='El procedimiento más común para tomar la muestra en terreno es construir un marco cuadrado (1mx1m), luego colocar en el área donde está el pasto y por último pesar cada muestra.')
         figcaption Nota. SENA (2024).
         
         .cajon.color-primario.p-4.my-3(style="background: #EFF2D5")
@@ -360,12 +360,11 @@
 
     .row.justify-content-center.my-3
       .col-lg-10
-        P.my-3 La curva de crecimiento de cada especie de pasto. Entre más submuestras tome máspreciso será el promedio.
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
-            h5 figura 5.
+            h5 Figura 5.
             span <em>Aforo en zigzag</em>
         figure
-          img(src='@/assets/curso/temas/tema4/img43.svg', alt='Se muestra un aforo en zigzag.')
+          img(src='@/assets/curso/temas/tema4/img43.svg', alt='Se sugiere el método zigzag o en forma de Z para el recorrido del lote.')
         figcaption Nota. SENA (2024).
 
     .row.justify-content-center(data-aos="flip-up")
@@ -427,7 +426,7 @@
     h5.mt-4.green_icon(data-aos="fade-left") Principios de conservación del ensilaje
       img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
 
-    p.my-3 Cuando se diseña un silo, el objetivo más importante es reducir en lo posible los factores que pueden causar daño al material a ensilar como microorganismos patógenos presentes en el ambiente. Para realizar un ensilaje de buena calidad se debe mantener una temperatura adecuada de 30ºC, buena ventilación y disponer de buen alimento para que las bacterias benéficas crezcan.
+    p.my-3 Cuando se diseña un silo, el objetivo más importante es reducir en lo posible los factores que pueden causar daño al material a ensilar como microorganismos patógenos presentes en el ambiente. Para realizar un ensilaje de buena calidad se debe mantener una temperatura adecuada de 30 ºC, buena ventilación y disponer de buen alimento para que las bacterias benéficas crezcan.
 
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
@@ -438,6 +437,13 @@
         p <br>Las bacterias que se generan mediante este proceso secretan enzimas  que hacen que los carbohidratos se transformen en sustancias más simples. Dentro de los microorganismos que generan están las bacterias ácido-lácticas, bacterias butíricas, levaduras, hongos y gérmenes de la putrefacción.
 
     p.my-3 De todos estos microorganismos, las bacterias ácido-lácticas son las que se deben generar en el ensilaje, pues son las que hacen que se prolongue la vida útil del forraje, por tal razón es importante realizar el proceso de ensilado y generar las condiciones óptimas para que se produzcan dichas bacterias.
+    
+    .row.mt-5.mb-4.align-items-center(data-aos="fade-left")
+      .col-auto
+        img(src='@/assets/curso/temas/tema4/img45.svg', alt='Imagen decorativa')
+      .col.px-0
+        h3.mb-0(data-aos="zoom-in") Tipos de silos:
+    p.my-3 Existen diferentes tipos de silos, entre los más conocidos se encuentran:
 
     .row.justify-content-center.align-items-center.mb-3.p-4(data-aos="zoom-in")
       .col-xl-3.col-lg-3.col-md-5.my-3
@@ -461,10 +467,10 @@
       .col-lg-10
         h5.mt-4.green_icon(data-aos="fade-left") Heno
           img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
-        p.my-3 El heno es un producto que resulta de reducir la cantidad de agua de 15 a 25% en el forraje. Cuando el heno se ha secado bien puede ser almacenado, siendo este producto la fuente más económica de nutrientes para los animales, con excepción del pastoreo directo. 
+        p.my-3 El heno es un producto que resulta de reducir la cantidad de agua de 15 a 25 % en el forraje. Cuando el heno se ha secado bien puede ser almacenado, siendo este producto la fuente más económica de nutrientes para los animales, con excepción del pastoreo directo. 
         p.my-3 El objetivo principal de hacer heno es aprovechar el pasto que se produce en época de lluvias, para luego suministrarlo al ganado en épocas duras como sequías o lluvias intensas. Con la implementación de esta técnica se puede mantener un alto nivel por año en la ganadería.
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
-            h5 figura 6.
+            h5 Figura 6.
             span <em>Especies de heno</em>
         figure
           img(src='@/assets/curso/temas/tema4/img50.svg', alt='Se muestran las especies que pueden ser utilizadas para henificar.')
@@ -473,7 +479,7 @@
     .row.justify-content-center.my-4
       .col-lg-10.col-md-12
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
-            h5 Tabla 2.
+            h5 Tabla 3.
             span <em>Calidad nutritiva</em>
         .tabla-b
           table.text-center
@@ -528,14 +534,14 @@
     .row.justify-content-center.my-3
       .col-lg-10  
         .cajon.color-secundario.p-4(style="background: #DCF6FE")
-          p.mt-0.mb-0 El heno puede ser usado para la alimentación animal brindándole energía y vitaminas a este, siendo una técnica menos costosa que los concentrados. La suplementación en bovinos puede estar en un 0.5 a 1.0% del peso vivo del animal, lo que constituye alrededor de 5 kg por rumiante, esta cantidad puede aumentar cuando el ganado se ha acostumbrado al heno.
+          p.mt-0.mb-0 El heno puede ser usado para la alimentación animal brindándole energía y vitaminas a este, siendo una técnica menos costosa que los concentrados. La suplementación en bovinos puede estar en un 0.5 % a 1.0 % del peso vivo del animal, lo que constituye alrededor de 5 kg por rumiante, esta cantidad puede aumentar cuando el ganado se ha acostumbrado al heno.
 
     .row.justify-content-center.my-3 
       .col-lg-10
         h5.mt-4.green_icon(data-aos="fade-left") Elaboración y manejo manual de heno
           img.my-3(src='@/assets/curso/temas/tema3/green_icon-2.svg', alt='Imagen decorativa')
         .titulo-sexto.color-acento-contenido.mb-3.my-3(data-aos="fade-left")
-            h5 figura 7.
+            h5 Figura 7.
             span <em>Manejo manual del heno</em>
         figure
           img(src='@/assets/curso/temas/tema4/img51.svg', alt='Se muestra un procedimiento de manual de heno.')

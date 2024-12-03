@@ -101,16 +101,30 @@
             .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema1/img10.png', alt='Imagen decorativa')
+    p.my-3 Para finalizar el diagnóstico se debe hacer lo siguiente:
+    ul.mb-0
+      li
+        span Recorrer el predio para identificar las condiciones agroecológicas y el uso del suelo.
+    ul.mb-0
+      li
+        span Cuantificar el área cultivada y el estado de los cultivos y pastos.
+        ul.mb-0
+      li
+        span Describir la ubicación de las fuentes de agua, su disponibilidad y cantidad.
+        ul.mb-0
+      li
+        span Se debe dibujar un croquis de la finca con sus componentes.
+    p.my-3 Con esta información se puede realizar un mapa de uso actual de la tierra y así conocer mejor los diferentes manejos que se dan a las unidades productivas agrícolas y pecuarias. Durante el diagnóstico se deben establecer los cambios y perspectivas a futuro que el productor y su núcleo familiar desean implementar en la finca.
 
     .row.justify-content-center.my-4
       .col-lg-10.col-md-12
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
-            h5 figura 1.
+            h5 Figura 1.
             span <em>Croquis de una finca</em>
         ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/img11.svg', alt='Se muestra un croquis de una finca.')
+              img(src='@/assets/curso/temas/tema1/img11.svg', alt='En la imagen se muestra el agua del rio que pasa por la finca.')
               figcaption Nota. SENA (2024).
 
           .tarjeta.color-white.p-3(x="39%" y="55%" numero="1")
@@ -141,6 +155,53 @@
             .h5.mb-2 Cancha de pasto
             p 4,2 ha
 
+    .row.justify-content-center
+      .col-lg-10.col-md-12
+        .titulo-sexto.color-acento-contenido.mb-3
+            h5 Tabla 1. 
+            span <em>Uso del suelo Ha</em>
+        .tabla-b
+          table
+            caption Nota. Mora (2005)
+            thead
+              tr
+                th.text-center(style="background:#B1BF34; border: 1.2px solid #000000") ID
+                th.text-center(style="background:#B1BF34; border: 1.2px solid #000000") Uso del suelo
+                th.text-center(style="background:#B1BF34; border: 1.2px solid #000000") Ha
+            tbody
+              tr
+                td.text-center 1
+                td.text-center Pasturas 
+                td.text-center 8.0
+              tr
+                td.text-center 2
+                td.text-center Bosque 
+                td.text-center 5.2
+              tr
+                td.text-center 3
+                td.text-center Cultivos (café) 
+                td.text-center 3.3
+              tr
+                td.text-center 4
+                td.text-center Fuentes de agua 
+                td.text-center 0.2
+              tr
+                td.text-center 5
+                td.text-center Cultivos (alimentos) 
+                td.text-center 0.2
+              tr
+                td.text-center 6
+                td.text-center Infraestructura (casa) 
+                td.text-center 0.2
+              tr
+                td.text-center 7
+                td.text-center Cancha de pasto 
+                td.text-center 0.2
+              tr
+                td.text-center 
+                td.text-center Área total de la finca 
+                td.text-center 17.3
+       
 
     .row.justify-content-center.fondo-imagen-5
       .col-lg-12
@@ -170,7 +231,7 @@
         .row.justify-content-center
           .col-lg-10.col-md-12
             .titulo-sexto.color-acento-contenido.mb-3
-                h5 Tabla 1.
+                h5 Tabla 2.
                 span <em>Uso del suelo áreas</em>
             .tabla-b
               table
@@ -181,7 +242,7 @@
                     th.text-center(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas muy quebradas<br>< 40 %
                     th.text-center(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas quebradas<br>20 a 40 %
                     th.text-center(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas poco quebradas<br>5 - 20 %
-                    th.text-center(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas planas<br>< 5%
+                    th.text-center(style="background: #FFFFFF; border: 1.2px solid #000000") Áreas planas<br>< 5 %
                 tbody
                   tr
                     td Reforestación protectora
@@ -266,6 +327,7 @@
               img.my-3(src="@/assets/curso/temas/tema1/img14.png", alt="alt")(style="min-height: 400px")
           .col-lg-8.justify-content-center.align-content-center(data-aos="flip-left")
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+              
               .row(titulo="Inclusión del componte leñoso")
                 .col-12
                   p.mb-0 En las fincas ganaderas es importante sembrar árboles y arbustos porque estos sirven como alimento para los animales, dan sombra, aportan madera y aserrío, sirven como hábitat para animales silvestres; además pueden ayudar a conservar las fuentes de agua, el suelo y facilitan la regeneración natural de los potreros. Los árboles pueden plantarse como cortinas rompevientos, cercas vivas, plantaciones compactas, dispersos en los potreros o barreras en contorno.
@@ -274,19 +336,21 @@
                 .col-12
                   p.mb-0 Una granja familiar o un huerto casero proporciona alimento a las familias, además de la venta de estos productos pueden generar ingresos económicos adicionales. En los huertos caseros se pueden cultivar plantas aromáticas, flores, frutos, leguminosas que pueden servir como alimentos para humanos y animales. Además, se pueden tener plantas de diferentes tamaños, con el fin de aprovechar el espacio y las condiciones ambientales tales como agua y luz.
 
-              .row(titulo="La alimentación del ganado")
-                .col-12
-                  p.mb-0 Para proporcionar una adecuada alimentación se debe tener en cuenta lo siguiente: Los alimentos suministrados al animal deben aportar los nutrientes requeridos como son proteínas, energía y minerales. La cantidad suministrada debe ser suficiente para que el animal se sienta saciado y así pueda aumentar la producción tanto de carne como de leche.
 
               .row(titulo="El manejo del ganado")
                 .col-12
                   p.mb-0 Una buena alimentación que sea balanceada y nutritiva a base de forrajes (pastos de corte y leguminosas), suplementos (fibrosos, proteicos, fuentes de carbohidratos, lípidos, bloques nutricionales, ensilajes, henos y follaje de árboles).
+              
 
               .row(titulo="Crianza y el manejo de los bovinos")
                 .col-12
                   p.mb-0 Para la crianza y el manejo de los bovinos se debe disponer de espacios adecuados de acuerdo con el número de animales y los pastos de los potreros deben ser de calidad y se debe contar con recursos para realizar suplementos. Control sanitario (vacunas y baños) para evitar que se generen plagas en el animal como garrapatas, parásitos internos y larvas de moscas (nuches).
+              
+              .row(titulo="La alimentación del ganado")
+                .col-12
+                  p.mb-0 Para proporcionar una adecuada alimentación se debe tener en cuenta lo siguiente: Los alimentos suministrados al animal deben aportar los nutrientes requeridos como son proteínas, energía y minerales. La cantidad suministrada debe ser suficiente para que el animal se sienta saciado y así pueda aumentar la producción tanto de carne como de leche.
 
-    p.my-3 Un animal por regla general consume forrajes en un 10% de su peso vivo. Por ejemplo, una res que pese 500 kg come 50 kg de forraje verde. Por tal razón el productor ganadero debe garantizar que el área de potreros y la suplementación estén aportando los nutrientes que el animal requiere para su mantenimiento y así poder producir una buena cantidad de leche y carne de alta calidad. En la alimentación de los bovinos se debe incluir forraje extra, el cual puede ser de 15 a 20% para favorecer la capacidad de selección.
+    p.my-3 Un animal por regla general consume forrajes en un 10 % de su peso vivo. Por ejemplo, una res que pese 500 kg come 50 kg de forraje verde. Por tal razón el productor ganadero debe garantizar que el área de potreros y la suplementación estén aportando los nutrientes que el animal requiere para su mantenimiento y así poder producir una buena cantidad de leche y carne de alta calidad. En la alimentación de los bovinos se debe incluir forraje extra, el cual puede ser de 15 a 20 % para favorecer la capacidad de selección.
 
     .row.justify-content-center.mb-3.mt-4.fondo-imagen2.p-4
       .tarjeta.tarjeta--blanca.p-2(data-aos="fade-up")
@@ -313,7 +377,7 @@
     .row.justify-content-center.my-4
       .col-lg-10.col-md-12
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-left")
-            h5 figura 2.
+            h5 Figura 2.
             span <em>El recurso agua</em>
         figure(data-aos="zoom-up")
           img(src='@/assets/curso/temas/tema1/img19.png', alt='Se muestra una imagen del recurso agua.')
